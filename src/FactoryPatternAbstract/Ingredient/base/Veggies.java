@@ -1,7 +1,7 @@
-package FactoryPatternAbstract;
+package FactoryPatternAbstract.Ingredient.base;
 
 /**
- * TODO(用一句话描述该文件做什么)
+ * 原料基础接口
  *
  * @author LeiShiGuang
  * Date  2018/8/8 20:57

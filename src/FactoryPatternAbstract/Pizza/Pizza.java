@@ -1,4 +1,6 @@
-package FactoryPattern.Pizza;
+package FactoryPatternAbstract.Pizza;
+
+import FactoryPatternAbstract.Ingredient.base.*;
 
 import java.util.ArrayList;
 
@@ -12,19 +14,29 @@ import java.util.ArrayList;
 public abstract class Pizza {
 
     String name;
-    String dough;
-    String sauce;
+    Dough dough;
+    Sauce sauce;
+    Veggies viggies[];
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clam;
     ArrayList<String> toppings = new ArrayList<>();
 
-    public void prepare() {
+
+    /**
+     * 这时候的 Pizza 的准备交给具体的 Pizza 种类
+     */
+    public abstract void prepare();
+
+   /* public void prepare() {
         System.out.println("Preparing " + name);
         System.out.println("Tosing dough.." + dough);
         System.out.println("Adding sauce.." + sauce);
         System.out.println("Adding toppings:");
-        for (String topping : toppings) {
-            System.out.println("\t" + topping);
+        for(String topping:toppings){
+            System.out.println("\t"+topping);
         }
-    }
+    }*/
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350.");
@@ -38,7 +50,15 @@ public abstract class Pizza {
         System.out.println("Place pizza in official PizzaStore box");
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public String toString() {
+        return "";
     }
 }
