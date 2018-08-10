@@ -7,5 +7,5 @@ package FactoryPatternAbstract.Ingredient.base;
  * Date  2018/8/8 20:57
  * @version v1.0
  */
-public class Dough {
+public interface Dough {
 }

@@ -9,5 +9,5 @@ import FactoryPatternAbstract.Ingredient.base.Clams;
  * Date  2018/8/9 19:59
  * @version v1.0
  */
-public class NewYorkClams extends Clams {
+public class NewYorkClams implements Clams {
 }

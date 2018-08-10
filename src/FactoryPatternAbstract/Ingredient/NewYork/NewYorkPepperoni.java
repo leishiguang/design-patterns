@@ -9,5 +9,5 @@ import FactoryPatternAbstract.Ingredient.base.Pepperoni;
  * Date  2018/8/9 20:00
  * @version v1.0
  */
-public class NewYorkPepperoni extends Pepperoni {
+public class NewYorkPepperoni implements Pepperoni {
 }

@@ -5,7 +5,7 @@ import FactoryPatternAbstract.Store.NYPizzaStore;
 import FactoryPatternAbstract.Store.PizzaStore;
 
 /**
- * 测试方法
+ * 抽象工厂测试方法
  *
  * @author LeiShiGuang
  * Date  2018/8/9 20:03

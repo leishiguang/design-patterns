@@ -9,5 +9,5 @@ import FactoryPatternAbstract.Ingredient.base.Cheese;
  * Date  2018/8/9 19:59
  * @version v1.0
  */
-public class NewYorkCheese extends Cheese {
+public class NewYorkCheese implements Cheese {
 }

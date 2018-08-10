@@ -9,5 +9,5 @@ import FactoryPatternAbstract.Ingredient.base.Veggies;
  * Date  2018/8/9 20:01
  * @version v1.0
  */
-public class Garlic extends Veggies {
+public class Garlic implements Veggies {
 }

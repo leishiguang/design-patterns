@@ -9,5 +9,5 @@ import FactoryPatternAbstract.Ingredient.base.Veggies;
  * Date  2018/8/9 20:02
  * @version v1.0
  */
-public class RedPepper extends Veggies {
+public class RedPepper implements Veggies {
 }

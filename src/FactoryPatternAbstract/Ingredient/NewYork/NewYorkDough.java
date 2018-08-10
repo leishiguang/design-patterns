@@ -9,5 +9,5 @@ import FactoryPatternAbstract.Ingredient.base.Dough;
  * Date  2018/8/9 20:00
  * @version v1.0
  */
-public class NewYorkDough extends Dough {
+public class NewYorkDough implements Dough {
 }

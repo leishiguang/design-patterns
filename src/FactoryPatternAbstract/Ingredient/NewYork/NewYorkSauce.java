@@ -9,5 +9,5 @@ import FactoryPatternAbstract.Ingredient.base.Sauce;
  * Date  2018/8/9 20:00
  * @version v1.0
  */
-public class NewYorkSauce extends Sauce {
+public class NewYorkSauce implements Sauce {
 }
