@@ -1,28 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2356a5e5-e56d-420a-8d9e-1e00d2907166" name="Default" comment="Add Abstract Factory Pattern">
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SingletonPattern/SingletonTestDrive.java" afterDir="false" />
+    <list default="true" id="2356a5e5-e56d-420a-8d9e-1e00d2907166" name="Default" comment="Add MethodInvocation">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/ChicagoStyleCheesePizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/ChicagoStyleClamPizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/ChicagoStyleVegglePizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/NYStyleCheesePizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/NYStyleClamPizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/NYStyleVegglePizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/Pizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/PizzaTestDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/ChicagoPizzaStore$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/ChicagoPizzaStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/NYPizzaStore$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/NYPizzaStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/PizzaStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/PizzaStyleEnum$PizzaStyle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/PizzaStyleEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkCheese.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkClams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkDough.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/Garlic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/Onion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Cheese.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Clams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Dough.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Pepperoni.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Sauce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Veggies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/IngredientFactory/NYPizzaIngredientFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/IngredientFactory/PizzaIngredientFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/CheesePizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/ClamPizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/Pizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/VegglePizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/PizzaAbstractTestDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Store/NYPizzaStore$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Store/NYPizzaStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Store/PizzaStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/ChocolateBoiler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/ChocolateDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/RunnableDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/SingletonTestDrive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/ThreadDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyInstance/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/BdcBussinessObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/SwBussinessObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessStateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessStateSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/testForNewPatternMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkClams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkClams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkDough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkDough.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Garlic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Garlic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Onion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Onion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Cheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Clams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Clams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Dough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Dough.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Pepperoni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Pepperoni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Sauce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Sauce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Veggies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Veggies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactoryPatternAbstract/PizzaAbstractTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactoryPatternAbstract/PizzaAbstractTestDrive.java" afterDir="false" />
     </list>
+    <list id="e85d824e-33b3-4978-a4cd-2e4690ba5851" name="test" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,33 +88,36 @@
     <session id="-984443102">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="90" />
+          <entry key="java" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="90" />
+          <entry key="JAVA" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="9" />
-          <entry key="java" value="2484" />
-          <entry key="txt" value="29" />
+          <entry key="dummy" value="114" />
+          <entry key="java" value="7513" />
+          <entry key="txt" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2484" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="JAVA" value="7513" />
+          <entry key="PLAIN_TEXT" value="169" />
         </counts>
       </usages-collector>
     </session>
@@ -82,112 +125,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.java">
+        <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Garlic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Onion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/IngredientFactory/NYPizzaIngredientFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="300">
+              <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton.java">
+        <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="-313">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyInstance/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding>
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingletonTestDrive.java">
+        <entry file="file://$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="437">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
-                <element signature="method#start#0;class#RunnableDemo#0" />
-                <element signature="class#ThreadDemo#0" />
-                <element signature="e#2624#2625#0" expanded="true" />
-                <element signature="e#2648#2649#0" expanded="true" />
-                <element signature="method#run#0;class#ChocolateDemo#0" />
-                <element signature="e#4453#4454#0" expanded="true" />
-                <element signature="e#4477#4478#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
-              <folding>
-                <element signature="e#19132#19133#0" expanded="true" />
-                <element signature="e#19175#19176#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding>
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="e#1585#1586#0" expanded="true" />
-                <element signature="e#1619#1620#0" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,63 +197,72 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;S</find>
+      <find>chocolateBoiler</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>name + &quot;: S</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Sauce.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Cheese.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Veggies.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pepperoni.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Clams.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/NYPizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/NYPizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza/ChicagoStyleClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza/ChicagoStyleVegglePizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza/NYStyleCheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza/NYStyleClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza/NYStyleVegglePizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Store/ChicagoPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Store/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/PizzaTestDrive.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Store/PizzaStyleEnum.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Store/PizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza/ChicagoStyleCheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPattern/Pizza/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/PizzaIngredientFatory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/PizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NYPizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkVeggies.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/PizzaTestDrive.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Store/PizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/CheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/IngredientFactory/PizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/IngredientFactory/NYPizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/ClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/VegglePizza.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Store/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/PizzaAbstractTestDrive.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Cheese.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Clams.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Dough.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Pepperoni.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Sauce.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Veggies.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkCheese.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkClams.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkDough.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Garlic.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Onion.java" />
-        <option value="$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.java" />
-        <option value="$PROJECT_DIR$/src/SingletonPattern/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java" />
-        <option value="$PROJECT_DIR$/src/SingletonPattern/SingletonTestDrive.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/GarageDoorOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/GarageDoorOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/CellingFan.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/CellingFanOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/CellingFanOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/CeilingFan.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/GarageDoor.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/Stereo.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/GarageDoorUpCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/Remote/SteroOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/Remote/CeilingFanOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/CeilingFan.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/GarageDoor.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/Light.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/Stereo.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorDownCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorUpCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/LightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/StereoOnWithCDCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/SteroOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/NoCommand.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/RemoteControlTest.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/RemoteLoader.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/SimpleRemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/MethodInvocation/Command.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/WatchingPattern.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/Subject.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/SendToBDC.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/SendDataInterface.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/StateClass.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/SubjectInterface.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BussinessStateSubject.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BdcBussinessObserver.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/SwBussinessObserver.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserver/SwBussinessObserver.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserver/BdcBussinessObserver.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserver.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/BdcBussinessObserver.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/SwBussinessObserver.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/testForNewPatternMain.java" />
+        <option value="$PROJECT_DIR$/src/TestForNewPattern/BussinessStateData.java" />
+        <option value="$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java" />
+        <option value="$PROJECT_DIR$/src/ProxyInstance/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java" />
+        <option value="$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java" />
       </list>
     </option>
   </component>
@@ -276,10 +279,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-523" />
-    <option name="y" value="-715" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -298,13 +301,15 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,27 +326,26 @@
               <item name="201808-HeadFirstDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="201808-HeadFirstDesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyInstance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="201808-HeadFirstDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="201808-HeadFirstDesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonTestDrive.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="ReflectService" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533865066111" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536927291798" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="I:/1.Project_Action/0.WebDevelop/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -370,20 +374,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonTestDrive">
+  <component name="RunManager" selected="Application.JdkProxyExample">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaAbstractTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPatternAbstract.PizzaAbstractTestDrive" />
+    <configuration name="JdkProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProxyInstance.JdkProxyExample" />
       <module name="201808-HeadFirstDesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryPatternAbstract.*" />
+          <option name="PATTERN" value="ProxyInstance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,13 +395,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPattern.PizzaTestDrive" />
+    <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodInvocation.RemoteControlTest" />
       <module name="201808-HeadFirstDesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FactoryPatternAbstract.IngredientFactory.*" />
+          <option name="PATTERN" value="MethodInvocation.Remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodInvocation.RemoteLoader" />
+      <module name="201808-HeadFirstDesignPatterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodInvocation.Remote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,13 +443,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testForNewPatternMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestForNewPattern.testForNewPatternMain" />
+      <module name="201808-HeadFirstDesignPatterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestForNewPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -440,15 +474,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PizzaTestDrive" />
-      <item itemvalue="Application.PizzaAbstractTestDrive" />
       <item itemvalue="Application.SingletonTestDrive" />
+      <item itemvalue="Application.RemoteControlTest" />
+      <item itemvalue="Application.RemoteLoader" />
+      <item itemvalue="Application.testForNewPatternMain" />
+      <item itemvalue="Application.JdkProxyExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JdkProxyExample" />
+        <item itemvalue="Application.testForNewPatternMain" />
+        <item itemvalue="Application.RemoteLoader" />
+        <item itemvalue="Application.RemoteControlTest" />
         <item itemvalue="Application.SingletonTestDrive" />
-        <item itemvalue="Application.PizzaAbstractTestDrive" />
-        <item itemvalue="Application.PizzaTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -458,6 +496,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2356a5e5-e56d-420a-8d9e-1e00d2907166" name="Default" comment="" />
+      <changelist id="e85d824e-33b3-4978-a4cd-2e4690ba5851" name="test" comment="" />
       <created>1533731241509</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -469,7 +508,16 @@
       <workItem from="1533785228406" duration="1932000" />
       <workItem from="1533813896365" duration="80000" />
       <workItem from="1533814295581" duration="4183000" />
-      <workItem from="1533861255052" duration="3743000" />
+      <workItem from="1533861255052" duration="4400000" />
+      <workItem from="1533866782697" duration="974000" />
+      <workItem from="1534220785428" duration="6187000" />
+      <workItem from="1534229756399" duration="520000" />
+      <workItem from="1534468650547" duration="46000" />
+      <workItem from="1536544770098" duration="4040000" />
+      <workItem from="1536549612531" duration="1557000" />
+      <workItem from="1536659009404" duration="1568000" />
+      <workItem from="1536718440198" duration="1216000" />
+      <workItem from="1536922464637" duration="3544000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit, add FactoryPattern.">
       <created>1533780678889</created>
@@ -485,11 +533,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533817497035</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Singleton Pattern">
+      <created>1533865108270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533865108270</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add MethodInvocation">
+      <created>1534230151360</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534230151360</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19509000" />
+    <option name="totallyTimeSpent" value="39818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,10 +563,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12686567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2271625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -512,14 +574,14 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28773072" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24021353" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" weight="0.53435117" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.23664123" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" weight="0.2790445" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3995657" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.42374727" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -558,7 +620,22 @@
                 <collection />
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -581,7 +658,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit, add FactoryPattern." />
     <MESSAGE value="Add Abstract Factory Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Abstract Factory Pattern" />
+    <MESSAGE value="Add Singleton Pattern" />
+    <MESSAGE value="Add MethodInvocation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MethodInvocation" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -589,320 +668,219 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Store/PizzaStyleEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.java" />
+    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.java" />
+    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Garlic.java" />
+    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.java" />
+    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Onion.java" />
+    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="12450">
+          <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/CeilingFan.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/GarageDoor.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/Light.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/Stereo.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOnCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorDownCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorUpCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/LightOffCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/LightOnCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/StereoOnWithCDCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/NoCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/SteroOffCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/SimpleRemoteControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOffCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Command.java" />
+    <entry file="file://$PROJECT_DIR$/src/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/WatchingPattern.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/BussinessObserver/test.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5225">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/BussinessStateData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/BdcBussinessObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/testForNewPatternMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/SwBussinessObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/BussinessStateSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Store/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingletonTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="154" column="46" selection-start-line="154" selection-start-column="46" selection-end-line="154" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Store/ChicagoPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Store/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/ChicagoStyleCheesePizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/ChicagoStyleClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/ChicagoStyleVegglePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/NYStyleCheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/NYStyleClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Store/ChicagoPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Store/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Store/NYPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/PizzaIngredientFatory.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkVeggies.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/SimlePizzaFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Store/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/NYStyleVegglePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/IngredientFactory/PizzaIngredientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/CheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/ClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Pizza/VegglePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Store/NYPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/PizzaTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="72" selection-start-line="18" selection-start-column="8" selection-end-line="27" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/PizzaAbstractTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Cheese.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Clams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Dough.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Pepperoni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Sauce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/base/Veggies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkCheese.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkClams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkDough.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Garlic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/IngredientFactory/NYPizzaIngredientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="275">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FactoryPattern/Pizza/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForNewPattern/BussinessObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
+          <folding>
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-313">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/ProxyInstance/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
+        <state relative-caret-position="250">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
-            <element signature="e#19132#19133#0" expanded="true" />
-            <element signature="e#19175#19176#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Onion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/ChocolateBoiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="437">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SingletonPattern/SingletonTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="method#start#0;class#RunnableDemo#0" />
-            <element signature="class#ThreadDemo#0" />
-            <element signature="e#2624#2625#0" expanded="true" />
-            <element signature="e#2648#2649#0" expanded="true" />
-            <element signature="method#run#0;class#ChocolateDemo#0" />
-            <element signature="e#4453#4454#0" expanded="true" />
-            <element signature="e#4477#4478#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
