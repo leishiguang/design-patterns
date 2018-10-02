@@ -2,64 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2356a5e5-e56d-420a-8d9e-1e00d2907166" name="Default" comment="Add MethodInvocation">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/ChicagoStyleCheesePizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/ChicagoStyleClamPizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/ChicagoStyleVegglePizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/NYStyleCheesePizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/NYStyleClamPizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/NYStyleVegglePizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Pizza/Pizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/PizzaTestDrive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/ChicagoPizzaStore$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/ChicagoPizzaStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/NYPizzaStore$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/NYPizzaStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/PizzaStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/PizzaStyleEnum$PizzaStyle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPattern/Store/PizzaStyleEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkCheese.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkClams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkDough.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/Garlic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/Onion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Cheese.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Clams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Dough.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Pepperoni.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Sauce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Ingredient/base/Veggies.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/IngredientFactory/NYPizzaIngredientFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/IngredientFactory/PizzaIngredientFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/CheesePizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/ClamPizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/Pizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Pizza/VegglePizza.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/PizzaAbstractTestDrive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Store/NYPizzaStore$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Store/NYPizzaStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/FactoryPatternAbstract/Store/PizzaStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/ChocolateBoiler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/ChocolateDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/RunnableDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/SingletonTestDrive.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201808-HeadFirstDesignPatterns/SingletonPattern/ThreadDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyInstance/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/BdcBussinessObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessObserverPackage/SwBussinessObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessStateData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/BussinessStateSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestForNewPattern/testForNewPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/DecoratorTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator_first.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator_two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator_zero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/ChickenBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Chilli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Condiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Humburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Lettuce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/TestHumburger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="e85d824e-33b3-4978-a4cd-2e4690ba5851" name="test" comment="" />
@@ -88,35 +43,35 @@
     <session id="-984443102">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="187" />
+          <entry key="java" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="187" />
+          <entry key="JAVA" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="114" />
-          <entry key="java" value="7513" />
+          <entry key="java" value="7734" />
           <entry key="txt" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7513" />
+          <entry key="JAVA" value="7734" />
           <entry key="PLAIN_TEXT" value="169" />
         </counts>
       </usages-collector>
@@ -125,63 +80,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Condiment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
-              <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-313">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyInstance/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java">
+        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Humburger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="100">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Chilli.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,23 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/GarageDoorOffCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/LightOnCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/GarageDoorOnCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/CellingFan.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/CellingFanOnCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/CellingFanOffCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/CeilingFan.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/GarageDoor.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Methods/Stereo.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/GarageDoorUpCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/Remote/SteroOffCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Command/Remote/CeilingFanOffCommand.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/CeilingFan.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/GarageDoor.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/Light.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Furniture/Stereo.java" />
-        <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOffCommand.java" />
         <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOnCommand.java" />
         <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorDownCommand.java" />
         <option value="$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorUpCommand.java" />
@@ -263,6 +169,23 @@
         <option value="$PROJECT_DIR$/src/ProxyInstance/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java" />
         <option value="$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Decorator_two.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/DecoratorTestDrive.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Person.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Decorator_zero.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Decorator_first.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Human.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Human.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Humburger.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Condiment.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/ChickenBurger.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Lettuce.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Lettuce.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/Chilli.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/TestHumburger.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/TestHumburger.java" />
+        <option value="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Humburger.java" />
       </list>
     </option>
   </component>
@@ -326,26 +249,33 @@
               <item name="201808-HeadFirstDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="201808-HeadFirstDesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProxyInstance" type="462c0819:PsiDirectoryNode" />
+              <item name="DecoratorPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="201808-HeadFirstDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="201808-HeadFirstDesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ReflectService" type="462c0819:PsiDirectoryNode" />
+              <item name="DecoratorPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="humburgerAddCondiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="201808-HeadFirstDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="201808-HeadFirstDesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536927291798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538446858723" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="I:/1.Project_Action/0.WebDevelop/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -374,9 +304,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdkProxyExample">
+  <component name="RunManager" selected="Application.TestHumburger">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecoratorTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecoratorPattern.HumanWearGo.DecoratorTestDrive" />
+      <module name="201808-HeadFirstDesignPatterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DecoratorPattern.humburgerAddCondiment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,20 +332,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ProxyInstance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodInvocation.RemoteControlTest" />
-      <module name="201808-HeadFirstDesignPatterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MethodInvocation.Remote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -423,13 +353,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonPattern.SingletonTestDrive" />
+    <configuration name="TestHumburger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DecoratorPattern.humburgerAddCondiment.TestHumburger" />
       <module name="201808-HeadFirstDesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonPattern.*" />
+          <option name="PATTERN" value="DecoratorPattern.humburgerAddCondiment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,19 +404,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SingletonTestDrive" />
-      <item itemvalue="Application.RemoteControlTest" />
       <item itemvalue="Application.RemoteLoader" />
       <item itemvalue="Application.testForNewPatternMain" />
       <item itemvalue="Application.JdkProxyExample" />
+      <item itemvalue="Application.DecoratorTestDrive" />
+      <item itemvalue="Application.TestHumburger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHumburger" />
+        <item itemvalue="Application.DecoratorTestDrive" />
         <item itemvalue="Application.JdkProxyExample" />
         <item itemvalue="Application.testForNewPatternMain" />
         <item itemvalue="Application.RemoteLoader" />
-        <item itemvalue="Application.RemoteControlTest" />
-        <item itemvalue="Application.SingletonTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +447,9 @@
       <workItem from="1536549612531" duration="1557000" />
       <workItem from="1536659009404" duration="1568000" />
       <workItem from="1536718440198" duration="1216000" />
-      <workItem from="1536922464637" duration="3544000" />
+      <workItem from="1536922464637" duration="3777000" />
+      <workItem from="1536929748012" duration="200000" />
+      <workItem from="1538444459408" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit, add FactoryPattern.">
       <created>1533780678889</created>
@@ -547,11 +479,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534230151360</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add MethodInvocation">
+      <created>1536927376891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536927376891</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39818000" />
+    <option name="totallyTimeSpent" value="42644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -566,7 +505,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2271625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23443815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -576,11 +515,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24021353" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4252669" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" weight="0.2790445" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49840087" visible="true" weight="0.42882562" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3995657" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.42374727" />
@@ -668,34 +607,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkPepperoni.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/NewYork/NewYorkSauce.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Garlic.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Mushroom.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/Onion.java" />
-    <entry file="file://$PROJECT_DIR$/src/FactoryPatternAbstract/Ingredient/Veggies/RedPepper.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12450">
-          <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/CeilingFan.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/GarageDoor.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/Light.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/Stereo.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOnCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorDownCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorUpCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/LightOffCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/LightOnCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/StereoOnWithCDCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/NoCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/SteroOffCommand.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/SimpleRemoteControl.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteControlTest.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteControl.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/CeilingFanOffCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Command.java" />
@@ -706,10 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5225">
           <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -835,24 +748,26 @@
     <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="18" column="90" selection-start-line="18" selection-start-column="90" selection-end-line="18" selection-end-column="90" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-313">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -866,22 +781,180 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProxyInstance/HelloWorldImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="287">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyInstance/JdkProxyExample.java">
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteControlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="128">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/SimpleRemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator_first.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator_two.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator_zero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/DecoratorTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/ChickenBurger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Lettuce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/TestHumburger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Chilli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Condiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Humburger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
