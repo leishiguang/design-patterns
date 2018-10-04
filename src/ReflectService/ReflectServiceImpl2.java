@@ -20,7 +20,7 @@ public class ReflectServiceImpl2 {
     }
 
     public void sayHello() {
-        System.out.println("hello name");
+        System.out.println("hello" + this.name);
     }
 
     public ReflectServiceImpl2 getInstance() {

@@ -1,4 +1,4 @@
-package ProxyInstance;
+package ProxyInstance.zero;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
