@@ -1,4 +1,4 @@
-package ComponentPattern;
+package ComponentPattern.a;
 
 import IteratorPattern.NullIterator;
 

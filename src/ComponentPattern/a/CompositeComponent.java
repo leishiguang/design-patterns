@@ -1,4 +1,4 @@
-package ComponentPattern;
+package ComponentPattern.a;
 
 import java.util.ArrayList;
 import java.util.Iterator;
