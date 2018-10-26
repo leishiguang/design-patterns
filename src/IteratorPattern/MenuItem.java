@@ -1,5 +1,7 @@
 package IteratorPattern;
 
+import java.util.Iterator;
+
 /**
  * 菜单
  *
@@ -7,19 +9,20 @@ package IteratorPattern;
  * Date  2018/10/22 21:55
  * @version v1.0
  */
-public class MenuItem {
+public class MenuItem extends MenuComponent {
     String name;
     String description;
     boolean vegetarian;
-    double prive;
+    double price;
 
-    public MenuItem(String name, String description, boolean vegetarian, double prive) {
+    public MenuItem(String name, String description, boolean vegetarian, double price) {
         this.name = name;
         this.description = description;
         this.vegetarian = vegetarian;
-        this.prive = prive;
+        this.price = price;
     }
 
+    @Override
     public String getName() {
         return name;
     }
@@ -28,6 +31,7 @@ public class MenuItem {
         this.name = name;
     }
 
+    @Override
     public String getDescription() {
         return description;
     }
@@ -36,6 +40,7 @@ public class MenuItem {
         this.description = description;
     }
 
+    @Override
     public boolean isVegetarian() {
         return vegetarian;
     }
@@ -44,11 +49,27 @@ public class MenuItem {
         this.vegetarian = vegetarian;
     }
 
-    public double getPrive() {
-        return prive;
+    @Override
+    public double getPrice() {
+        return price;
     }
 
-    public void setPrive(double prive) {
-        this.prive = prive;
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    @Override
+    public void print() {
+        System.out.print("  " + getName());
+        if (isVegetarian()) {
+            System.out.print("(v)");
+        }
+        System.out.print(", " + getPrice());
+        System.out.println("   -- " + getDescription());
+    }
+
+    @Override
+    public Iterator createIterator() {
+        return new NullIterator();
     }
 }

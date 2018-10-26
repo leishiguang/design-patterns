@@ -1,5 +1,7 @@
 package IteratorPattern;
 
+import java.util.ArrayList;
+
 /**
  * 测试类
  *
@@ -13,7 +15,11 @@ public class MenuTestDrive {
         PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
         DinerMenu dinerMenu = new DinerMenu();
         CafeMenu cafeMenu = new CafeMenu();
-        Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu, cafeMenu);
+        ArrayList<Menu> menuArrayList = new ArrayList<>();
+        menuArrayList.add(pancakeHouseMenu);
+        menuArrayList.add(dinerMenu);
+        menuArrayList.add(cafeMenu);
+        Waitress waitress = new Waitress(menuArrayList);
         waitress.printMenu();
     }
 }
