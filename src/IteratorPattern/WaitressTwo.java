@@ -10,19 +10,19 @@ import java.util.Iterator;
  * Date  2018/10/22 22:19
  * @version v1.0
  */
-public class WaitressTwo {
+class WaitressTwo {
 
-    MenuComponent allMenus;
+    private MenuComponent allMenus;
 
-    public WaitressTwo(MenuComponent allMenus) {
+    WaitressTwo(MenuComponent allMenus) {
         this.allMenus = allMenus;
     }
 
-    public void printMenu() {
+    void printMenu() {
         allMenus.print();
     }
 
-    public void printVegetarianMenu() {
+    void printVegetarianMenu() {
         Iterator iterator = allMenus.createIterator();
         System.out.println("\nVEGETARIAN MENU\n----------");
         while (iterator.hasNext()) {

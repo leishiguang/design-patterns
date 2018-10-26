@@ -9,11 +9,11 @@ import java.util.Iterator;
  * @version v1.0
  */
 public class MenuTwo extends MenuComponent {
-    ArrayList<MenuComponent> menuComponets = new ArrayList<>();
-    String name;
-    String description;
+    private ArrayList<MenuComponent> menuComponets = new ArrayList<>();
+    private String name;
+    private String description;
 
-    public MenuTwo(String name, String description) {
+    MenuTwo(String name, String description) {
         this.name = name;
         this.description = description;
     }
