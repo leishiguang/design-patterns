@@ -10,7 +10,7 @@ import java.util.Iterator;
  * Date  2018/10/22 21:58
  * @version v1.0
  */
-public class PancakeHouseMenu {
+public class PancakeHouseMenu implements Menu {
     ArrayList menuItems;
 
     public PancakeHouseMenu() {
@@ -37,7 +37,9 @@ public class PancakeHouseMenu {
         menuItems.add(menuItem);
     }
 
+    @Override
     public Iterator createIterator() {
-        return new PancakeHouseMenuIterator(menuItems);
+        //return new PancakeHouseMenuIterator(menuItems);
+        return menuItems.iterator();
     }
 }

@@ -12,7 +12,8 @@ public class MenuTestDrive {
     public static void main(String[] args) {
         PancakeHouseMenu pancakeHouseMenu = new PancakeHouseMenu();
         DinerMenu dinerMenu = new DinerMenu();
-        Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu);
+        CafeMenu cafeMenu = new CafeMenu();
+        Waitress waitress = new Waitress(pancakeHouseMenu, dinerMenu, cafeMenu);
         waitress.printMenu();
     }
 }

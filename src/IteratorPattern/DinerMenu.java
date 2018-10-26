@@ -9,7 +9,7 @@ import java.util.Iterator;
  * Date  2018/10/22 22:03
  * @version v1.0
  */
-public class DinerMenu {
+public class DinerMenu implements Menu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
@@ -43,6 +43,7 @@ public class DinerMenu {
         }
     }
 
+    @Override
     public Iterator createIterator() {
         return new DinerMenuIterator(menuItems);
     }
