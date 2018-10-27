@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2356a5e5-e56d-420a-8d9e-1e00d2907166" name="Default" comment="Add ComponentPattern">
-      <change afterPath="$PROJECT_DIR$/src/ComponentPattern/b/Clienter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComponentPattern/b/Filer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComponentPattern/b/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComponentPattern/b/Noder.java" afterDir="false" />
+    <list default="true" id="2356a5e5-e56d-420a-8d9e-1e00d2907166" name="Default" comment="Add ComponentPattern another example">
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateMachinePattern/WinnerState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComponentPattern/BaseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComponentPattern/a/BaseComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComponentPattern/ComponentTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComponentPattern/a/ComponentTestDrive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComponentPattern/CompositeComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComponentPattern/a/CompositeComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComponentPattern/LeefComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComponentPattern/a/LeefComponent.java" afterDir="false" />
     </list>
     <list id="e85d824e-33b3-4978-a4cd-2e4690ba5851" name="test" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,33 +76,34 @@
     <session id="448472973">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="31" />
+          <entry key="java" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5793" />
-          <entry key="txt" value="46" />
+          <entry key="java" value="7967" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5793" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="JAVA" value="7967" />
+          <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
     </session>
@@ -110,145 +111,157 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IteratorPattern/MenuTestDrive.java">
+        <entry file="file://$PROJECT_DIR$/src/AdapterPattern/b/EnumeratorIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="13" selection-start-line="13" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/a/CompositeComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#826#827#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/a/BaseComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
+            <state relative-caret-position="175">
               <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/a/ComponentTestDrive.java">
+        <entry file="file://$PROJECT_DIR$/src/AdapterPattern/a/TurkeyAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
+            <state relative-caret-position="25">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IteratorPattern/WaitressTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/a/LeefComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Filer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Noder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-250">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#120#126#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Clienter.java">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/GumballMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
+                <element signature="e#1342#1343#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1548#1549#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1637#1638#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/HasQuarterState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/GumballMachineTestDrive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/SoldState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <folding>
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/SoldOutState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/WinnerState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/NoQuarterState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -280,14 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/ChickenBurger.java" />
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Lettuce.java" />
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/Lettuce.java" />
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/Chilli.java" />
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/TestHumburger.java" />
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/TestHumburger.java" />
-        <option value="$PROJECT_DIR$/src/DecoratorPattern/humburgerAddCondiment/Humburger.java" />
-        <option value="$PROJECT_DIR$/src/ProxyInstance/b/ProxyInterface.java" />
         <option value="$PROJECT_DIR$/src/ProxyInstance/b/RealObject.java" />
         <option value="$PROJECT_DIR$/src/ProxyInstance/b/bMain.java" />
         <option value="$PROJECT_DIR$/src/ProxyInstance/b/ProxyObject.java" />
@@ -331,6 +336,14 @@
         <option value="$PROJECT_DIR$/src/ComponentPattern/b/Filter.java" />
         <option value="$PROJECT_DIR$/src/ComponentPattern/b/Noder.java" />
         <option value="$PROJECT_DIR$/src/ComponentPattern/b/Clienter.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/State.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/SoldState.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/WinnerState.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/HasQuarterState.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/GumballMachineTestDrive.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/NoQuarterState.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/SoldOutState.java" />
+        <option value="$PROJECT_DIR$/src/StateMachinePattern/GumballMachine.java" />
       </list>
     </option>
   </component>
@@ -377,6 +390,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,27 +407,19 @@
               <item name="201808-HeadFirstDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="201808-HeadFirstDesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ComponentPattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="201808-HeadFirstDesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="201808-HeadFirstDesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ComponentPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="b" type="462c0819:PsiDirectoryNode" />
+              <item name="StateMachinePattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540567993539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540602623035" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="I:/1.Project_Action/0.WebDevelop/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -444,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Clienter">
+  <component name="RunManager" selected="Application.GumballMachineTestDrive">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -479,13 +485,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdapterPattern.DuckTestDrive" />
+    <configuration name="GumballMachineTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StateMachinePattern.GumballMachineTestDrive" />
       <module name="201808-HeadFirstDesignPatterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AdapterPattern.a.*" />
+          <option name="PATTERN" value="StateMachinePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -544,19 +550,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DuckTestDrive" />
       <item itemvalue="Application.MenuTestDrive" />
       <item itemvalue="Application.MenuTestDriveTwo" />
       <item itemvalue="Application.ComponentTestDrive" />
       <item itemvalue="Application.Clienter" />
+      <item itemvalue="Application.GumballMachineTestDrive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GumballMachineTestDrive" />
         <item itemvalue="Application.Clienter" />
         <item itemvalue="Application.ComponentTestDrive" />
         <item itemvalue="Application.MenuTestDriveTwo" />
         <item itemvalue="Application.MenuTestDrive" />
-        <item itemvalue="Application.DuckTestDrive" />
       </list>
     </recent_temporary>
   </component>
@@ -596,7 +602,8 @@
       <workItem from="1539912997932" duration="4986000" />
       <workItem from="1540216496875" duration="2175000" />
       <workItem from="1540262862693" duration="195000" />
-      <workItem from="1540554447354" duration="10024000" />
+      <workItem from="1540554447354" duration="10451000" />
+      <workItem from="1540597559639" duration="2878000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit, add FactoryPattern.">
       <created>1533780678889</created>
@@ -675,11 +682,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540567392047</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add ComponentPattern another example">
+      <created>1540568063799</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540568063799</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70399000" />
+    <option name="totallyTimeSpent" value="73704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,7 +708,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24171382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24575587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -704,7 +718,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5160142" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.78469753" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20462634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
@@ -712,7 +726,7 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.39679715" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.42348754" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3291815" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -793,77 +807,33 @@
     <MESSAGE value="Add AdapterPattern" />
     <MESSAGE value="Add AdapterPattern with Component" />
     <MESSAGE value="Add ComponentPattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ComponentPattern" />
+    <MESSAGE value="Add ComponentPattern another example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ComponentPattern another example" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StateMachinePattern/GumballMachineTestDrive.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StateMachinePattern/GumballMachineTestDrive.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ReflectService/reflect/AMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8125">
-          <caret line="392" column="13" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProxyInstance/b/bMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReflectService/ReflectServiceImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/RemoteLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Remote/GarageDoorDownCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/Light.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/Stereo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MethodInvocation/Furniture/GarageDoor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -948,20 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdapterPattern/a/TurkeyAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdapterPattern/b/EnumeratorIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdapterPattern/a/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -976,16 +932,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/PancakeHouseMenuIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorPattern/PancakeHouseMenuIterator.java" />
     <entry file="file://$PROJECT_DIR$/src/IteratorPattern/Waitress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1093,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdapterPattern/DuckTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DecoratorPattern/HumanWearGo/Decorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1191,18 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,85 +1143,206 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ComponentPattern/a/CompositeComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
+        <state relative-caret-position="275">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ComponentPattern/a/LeefComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
+        <state relative-caret-position="275">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Filer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="125">
           <caret line="5" column="18" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Noder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
+        <state relative-caret-position="200">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#120#126#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ComponentPattern/b/Clienter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="400">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReflectService/reflect/AMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdapterPattern/DuckTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdapterPattern/b/EnumeratorIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdapterPattern/a/TurkeyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/WinnerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/SoldOutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/GumballMachineTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/SoldState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/NoQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/HasQuarterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StateMachinePattern/GumballMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1342#1343#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
