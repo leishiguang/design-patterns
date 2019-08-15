@@ -1,6 +1,6 @@
 package com.ray.factory.abstracted.pizza;
 
-import FactoryPatternAbstract.IngredientFactory.PizzaIngredientFactory;
+import com.ray.factory.abstracted.ingredientfactory.PizzaIngredientFactory;
 
 /**
  * ClamPizza
@@ -9,7 +9,7 @@ import FactoryPatternAbstract.IngredientFactory.PizzaIngredientFactory;
  * date  2018/8/9 19:45
  * @version v1.0
  */
-public class ClamPizza extends Pizza {
+public class ClamPizza extends BasePizza {
 
     private PizzaIngredientFactory ingredientFactory;
 

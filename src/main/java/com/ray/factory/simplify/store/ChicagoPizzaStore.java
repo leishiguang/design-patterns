@@ -1,6 +1,9 @@
 package com.ray.factory.simplify.store;
 
-import FactoryPattern.Pizza.*;
+
+import com.ray.factory.simplify.pizza.*;
+import com.ray.factory.simplify.pizza.ChicagoStyleVegglePizza;
+import com.ray.factory.simplify.pizza.BasePizza;
 
 /**
  * 实现了工厂方法，只负责制造具体产品，也只有这个类知道如何制造产品。
@@ -9,12 +12,12 @@ import FactoryPattern.Pizza.*;
  * date  2018/8/9 8:41
  * @version v1.0
  */
-public class ChicagoPizzaStore extends PizzaStore {
+public class ChicagoPizzaStore extends BasePizzaStore {
 
     /*  实现了工厂方法，以便制造商品 */
     /*@Override
-    Pizza createPizza(String type) {
-        Pizza pizza = null;
+    BasePizza createPizza(String type) {
+        BasePizza pizza = null;
         if ("cheese".equals(type)) {
             pizza = new ChicagoStyleCheesePizza();
         } else if ("clam".equals(type)) {
@@ -29,18 +32,20 @@ public class ChicagoPizzaStore extends PizzaStore {
     }*/
 
     @Override
-    Pizza createPizza(PizzaStyleEnum.PizzaStyle type) {
-        Pizza pizza = null;
+    BasePizza createPizza(PizzaStyleEnum.PizzaStyle type) {
+        BasePizza basePizza = null;
         switch (type) {
             case Cheese:
-                pizza = new ChicagoStyleCheesePizza();
+                basePizza = new ChicagoStyleCheesePizza();
                 break;
             case Clam:
-                pizza = new ChicagoStyleClamPizza();
+                basePizza = new ChicagoStyleClamPizza();
                 break;
             case Veggle:
-                pizza = new ChicagoStyleVegglePizza();
+                basePizza = new ChicagoStyleVegglePizza();
+                break;
+            default:
         }
-        return pizza;
+        return basePizza;
     }
 }

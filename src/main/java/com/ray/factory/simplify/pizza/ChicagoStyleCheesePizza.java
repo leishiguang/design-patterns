@@ -7,14 +7,15 @@ package com.ray.factory.simplify.pizza;
  * date  2018/8/8 20:43
  * @version v1.0
  */
-public class ChicagoStyleCheesePizza extends Pizza {
+public class ChicagoStyleCheesePizza extends BasePizza {
     public ChicagoStyleCheesePizza() {
-        name = "Chicago Style Cheese Pizza";
+        name = "Chicago Style Cheese BasePizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
         toppings.add("Shredded Mozzarella Cheese");
     }
 
+    @Override
     public void cut() {
         System.out.println("Cutting the pizza into square slices");
     }

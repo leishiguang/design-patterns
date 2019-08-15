@@ -1,16 +1,17 @@
 package com.ray.factory.abstracted.ingredientfactory;
 
-import FactoryPatternAbstract.Ingredient.NewYork.*;
-import FactoryPatternAbstract.Ingredient.Veggies.Garlic;
-import FactoryPatternAbstract.Ingredient.Veggies.Mushroom;
-import FactoryPatternAbstract.Ingredient.Veggies.Onion;
-import FactoryPatternAbstract.Ingredient.Veggies.RedPepper;
-import FactoryPatternAbstract.Ingredient.base.*;
+import com.ray.factory.abstracted.ingredient.newyork.*;
+import com.ray.factory.abstracted.ingredient.veggies.Garlic;
+import com.ray.factory.abstracted.ingredient.veggies.Mushroom;
+import com.ray.factory.abstracted.ingredient.veggies.Onion;
+import com.ray.factory.abstracted.ingredient.veggies.RedPepper;
+import com.ray.factory.abstracted.ingredient.base.*;
+import com.ray.factory.abstracted.ingredient.base.Dough;
 
 import java.util.ArrayList;
 
 /**
- * 纽约原料工厂，提供纽约 PizzaStore 所需要的原材料
+ * 纽约原料工厂，提供纽约 BasePizzaStore 所需要的原材料
  *
  * @author leishiguang
  * date  2018/8/8 20:58

@@ -1,7 +1,7 @@
 package com.ray.factory.simplify.store;
 
 /**
- * 定义 Pizza 的类型枚举
+ * 定义 BasePizza 的类型枚举
  *
  * @author leishiguang
  * date  2018/8/9 8:57
@@ -10,6 +10,7 @@ package com.ray.factory.simplify.store;
 public class PizzaStyleEnum {
 
     public enum PizzaStyle {
+        /* */
         Cheese,
         Clam,
         Veggle

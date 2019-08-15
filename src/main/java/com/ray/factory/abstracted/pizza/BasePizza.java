@@ -1,6 +1,6 @@
 package com.ray.factory.abstracted.pizza;
 
-import FactoryPatternAbstract.Ingredient.base.*;
+import com.ray.factory.abstracted.ingredient.base.*;
 
 import java.util.ArrayList;
 
@@ -11,12 +11,12 @@ import java.util.ArrayList;
  * date  2018/8/8 20:29
  * @version v1.0
  */
-public abstract class Pizza {
+public abstract class BasePizza {
 
     String name;
     Dough dough;
     Sauce sauce;
-    Veggies viggies[];
+    Veggies[] viggies;
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clam;
@@ -24,7 +24,7 @@ public abstract class Pizza {
 
 
     /**
-     * 这时候的 Pizza 的准备交给具体的 Pizza 种类
+     * 这时候的 BasePizza 的准备交给具体的 BasePizza 种类
      */
     public abstract void prepare();
 
@@ -47,7 +47,7 @@ public abstract class Pizza {
     }
 
     public void box() {
-        System.out.println("Place pizza in official PizzaStore box");
+        System.out.println("Place pizza in official BasePizzaStore box");
     }
 
     public void setName(String name) {
@@ -58,6 +58,7 @@ public abstract class Pizza {
         return name;
     }
 
+    @Override
     public String toString() {
         return "";
     }

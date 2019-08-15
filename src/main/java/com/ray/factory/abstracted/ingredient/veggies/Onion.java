@@ -1,6 +1,7 @@
 package com.ray.factory.abstracted.ingredient.veggies;
 
-import FactoryPatternAbstract.Ingredient.base.Veggies;
+
+import com.ray.factory.abstracted.ingredient.base.Veggies;
 
 /**
  * 通用的基础原料

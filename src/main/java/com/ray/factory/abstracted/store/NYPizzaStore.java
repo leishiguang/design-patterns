@@ -1,15 +1,15 @@
 package com.ray.factory.abstracted.store;
 
-import FactoryPatternAbstract.Pizza.CheesePizza;
-import FactoryPatternAbstract.Pizza.ClamPizza;
-import FactoryPatternAbstract.Pizza.Pizza;
-import FactoryPattern.Store.PizzaStyleEnum;
-import FactoryPatternAbstract.IngredientFactory.NYPizzaIngredientFactory;
-import FactoryPatternAbstract.IngredientFactory.PizzaIngredientFactory;
-import FactoryPatternAbstract.Pizza.VegglePizza;
+import com.ray.factory.abstracted.pizza.CheesePizza;
+import com.ray.factory.abstracted.pizza.ClamPizza;
+import com.ray.factory.abstracted.pizza.BasePizza;
+import com.ray.factory.abstracted.ingredientfactory.NYPizzaIngredientFactory;
+import com.ray.factory.abstracted.ingredientfactory.PizzaIngredientFactory;
+import com.ray.factory.abstracted.pizza.VegglePizza;
+import com.ray.factory.simplify.store.PizzaStyleEnum;
 
 /**
- * NYPizzaStore
+ * NyPizzaStore
  *
  * @author leishiguang
  * date  2018/8/9 19:47
@@ -17,22 +17,23 @@ import FactoryPatternAbstract.Pizza.VegglePizza;
  */
 public class NYPizzaStore extends PizzaStore {
     @Override
-    Pizza createPizza(PizzaStyleEnum.PizzaStyle type) {
-        Pizza pizza = null;
+    BasePizza createPizza(PizzaStyleEnum.PizzaStyle type) {
+        BasePizza pizza = null;
         PizzaIngredientFactory ingredientFactory = new NYPizzaIngredientFactory();
         switch (type) {
             case Clam:
                 pizza = new ClamPizza(ingredientFactory);
-                pizza.setName("New York Style Clam Pizza.");
+                pizza.setName("New York Style Clam BasePizza.");
                 break;
             case Cheese:
                 pizza = new CheesePizza(ingredientFactory);
-                pizza.setName("New York Style Cheese Pizza.");
+                pizza.setName("New York Style Cheese BasePizza.");
                 break;
             case Veggle:
                 pizza = new VegglePizza(ingredientFactory);
-                pizza.setName("New York Style Veggle Pizza.");
+                pizza.setName("New York Style Veggle BasePizza.");
                 break;
+            default:
         }
         return pizza;
     }

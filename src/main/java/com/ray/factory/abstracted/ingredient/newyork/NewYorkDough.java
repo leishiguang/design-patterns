@@ -1,6 +1,6 @@
 package com.ray.factory.abstracted.ingredient.newyork;
 
-import FactoryPatternAbstract.Ingredient.base.Dough;
+import com.ray.factory.abstracted.ingredient.base.Dough;
 
 /**
  * 纽约原料

@@ -1,8 +1,8 @@
 package com.ray.factory.abstracted;
 
-import FactoryPatternAbstract.Pizza.Pizza;
-import FactoryPatternAbstract.Store.NYPizzaStore;
-import FactoryPatternAbstract.Store.PizzaStore;
+import com.ray.factory.abstracted.pizza.BasePizza;
+import com.ray.factory.abstracted.store.NYPizzaStore;
+import com.ray.factory.abstracted.store.PizzaStore;
 
 /**
  * 抽象工厂测试方法
@@ -14,7 +14,7 @@ import FactoryPatternAbstract.Store.PizzaStore;
 public class PizzaAbstractTestDrive {
     public static void main(String[] args) {
         PizzaStore nyStore = new NYPizzaStore();
-        Pizza pizza = nyStore.orderPizza("Cheese");
+        BasePizza pizza = nyStore.orderPizza("Cheese");
         //pizza = nyStore.orderPizza(PizzaStyleEnum.PizzaStyle.Cheese);
         System.out.println("First ordered a " + pizza.getName() + "\n");
         pizza = nyStore.orderPizza("Clam");

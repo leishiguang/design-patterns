@@ -7,9 +7,9 @@ package com.ray.factory.simplify.pizza;
  * date  2018/8/8 20:41
  * @version v1.0
  */
-public class NYStyleCheesePizza extends Pizza {
-    public NYStyleCheesePizza() {
-        name = "NY Style Sauce and Cheese Pizza";
+public class NyStyleCheesePizza extends BasePizza {
+    public NyStyleCheesePizza() {
+        name = "NY Style Sauce and Cheese BasePizza";
         dough = "Thin Crust Dough";
         sauce = "Marnara Sauce";
 

@@ -1,8 +1,7 @@
 package com.ray.factory.abstracted.store;
 
-
-import FactoryPattern.Store.PizzaStyleEnum;
-import FactoryPatternAbstract.Pizza.Pizza;
+import com.ray.factory.abstracted.pizza.BasePizza;
+import com.ray.factory.simplify.store.PizzaStyleEnum;
 
 /**
  * 工厂类，实现了操作产品的方法，不实现工厂方法。
@@ -14,11 +13,11 @@ import FactoryPatternAbstract.Pizza.Pizza;
 public abstract class PizzaStore {
 
     /* 抽象的工厂方法，只有子类真正实现了某个类 */
-    abstract Pizza createPizza(PizzaStyleEnum.PizzaStyle type);
+    abstract BasePizza createPizza(PizzaStyleEnum.PizzaStyle type);
 
     /* 操作产品的方法 */
-    public Pizza orderPizza(Object type) {
-        Pizza pizza = null;
+    public BasePizza orderPizza(Object type) {
+        BasePizza pizza = null;
         if (type.getClass() == String.class) {
             pizza = createPizza((String) type);
         } else if (type.getClass() == PizzaStyleEnum.PizzaStyle.class) {
@@ -33,7 +32,7 @@ public abstract class PizzaStore {
     }
 
     /* 工厂方法，只有子类真正实现了某个类 */
-    private Pizza createPizza(String strType) {
+    private BasePizza createPizza(String strType) {
         PizzaStyleEnum.PizzaStyle type;
         try {
             type = PizzaStyleEnum.PizzaStyle.valueOf(strType);

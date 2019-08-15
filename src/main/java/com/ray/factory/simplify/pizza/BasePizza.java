@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * date  2018/8/8 20:29
  * @version v1.0
  */
-public abstract class Pizza {
+public abstract class BasePizza {
 
     String name;
     String dough;
@@ -35,7 +35,7 @@ public abstract class Pizza {
     }
 
     public void box() {
-        System.out.println("Place pizza in official PizzaStore box");
+        System.out.println("Place pizza in official BasePizzaStore box");
     }
 
     public String getName() {

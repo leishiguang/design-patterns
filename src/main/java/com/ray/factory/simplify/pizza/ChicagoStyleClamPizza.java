@@ -7,9 +7,9 @@ package com.ray.factory.simplify.pizza;
  * date  2018/8/9 8:38
  * @version v1.0
  */
-public class ChicagoStyleClamPizza extends Pizza {
+public class ChicagoStyleClamPizza extends BasePizza {
     public ChicagoStyleClamPizza() {
-        name = "Chicago Style Clam Pizza";
+        name = "Chicago Style Clam BasePizza";
         dough = "Thin Clam Dough _ ChicagoStyleClamPizza";
         sauce = "Marnara Sauce _ ChicagoStyleClamPizza";
 

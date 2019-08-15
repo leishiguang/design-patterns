@@ -1,6 +1,6 @@
 package com.ray.factory.abstracted.ingredientfactory;
 
-import FactoryPatternAbstract.Ingredient.base.*;
+import com.ray.factory.abstracted.ingredient.base.*;
 
 import java.util.ArrayList;
 
