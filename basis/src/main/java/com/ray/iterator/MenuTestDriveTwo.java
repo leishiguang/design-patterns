@@ -1,8 +1,5 @@
 package com.ray.iterator;
 
-import java.util.ArrayList;
-import java.util.zip.Adler32;
-
 /**
  * 测试类
  *

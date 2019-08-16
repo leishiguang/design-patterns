@@ -1,6 +1,5 @@
 package com.ray.iterator;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
