@@ -16,7 +16,7 @@ public abstract class BasePizza {
     String name;
     Dough dough;
     Sauce sauce;
-    Veggies[] viggies;
+    Veggies[] veggies;
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clam;

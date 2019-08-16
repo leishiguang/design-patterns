@@ -1,6 +1,6 @@
 package com.ray.command.remote;
 
-import MethodInvocation.Command;
+import com.ray.command.Command;
 
 /**
  * 实现产品的命令接口，当接口为空的时候。

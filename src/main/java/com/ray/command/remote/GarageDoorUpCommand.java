@@ -1,7 +1,8 @@
 package com.ray.command.remote;
 
-import MethodInvocation.Command;
-import MethodInvocation.Furniture.GarageDoor;
+
+import com.ray.command.Command;
+import com.ray.command.furniture.GarageDoor;
 
 /**
  * 实现产品的命令接口

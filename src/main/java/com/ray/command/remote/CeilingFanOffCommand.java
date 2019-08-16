@@ -1,7 +1,8 @@
 package com.ray.command.remote;
 
-import MethodInvocation.Command;
-import MethodInvocation.Furniture.CeilingFan;
+
+import com.ray.command.Command;
+import com.ray.command.furniture.CeilingFan;
 
 /**
  * 实现产品的命令接口

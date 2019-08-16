@@ -10,12 +10,16 @@ import com.ray.factory.simplify.store.PizzaStyleEnum;
  * date  2018/8/8 20:28
  * @version v1.0
  */
-public abstract class PizzaStore {
+public abstract class BasePizzaStore {
 
-    /* 抽象的工厂方法，只有子类真正实现了某个类 */
+    /**
+     * 抽象的工厂方法，只有子类真正实现了某个类
+     */
     abstract BasePizza createPizza(PizzaStyleEnum.PizzaStyle type);
 
-    /* 操作产品的方法 */
+    /**
+     * 操作产品的方法
+     */
     public BasePizza orderPizza(Object type) {
         BasePizza pizza = null;
         if (type.getClass() == String.class) {
@@ -31,7 +35,9 @@ public abstract class PizzaStore {
         return pizza;
     }
 
-    /* 工厂方法，只有子类真正实现了某个类 */
+    /**
+     * 工厂方法，只有子类真正实现了某个类
+     */
     private BasePizza createPizza(String strType) {
         PizzaStyleEnum.PizzaStyle type;
         try {

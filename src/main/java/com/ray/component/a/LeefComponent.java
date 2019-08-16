@@ -1,6 +1,6 @@
 package com.ray.component.a;
 
-import IteratorPattern.NullIterator;
+import com.ray.iterator.NullIterator;
 
 import java.util.Iterator;
 
@@ -15,7 +15,7 @@ public class LeefComponent extends BaseComponent {
 
     private String leefName;
 
-    public LeefComponent(String leefName) {
+    LeefComponent(String leefName) {
         this.leefName = leefName;
     }
 

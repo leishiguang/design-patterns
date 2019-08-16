@@ -1,7 +1,7 @@
 package com.ray.command.remote;
 
-import MethodInvocation.Command;
-import MethodInvocation.Furniture.Light;
+import com.ray.command.Command;
+import com.ray.command.furniture.Light;
 
 /**
  * 实现产品的命令接口

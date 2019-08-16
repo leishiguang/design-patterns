@@ -1,6 +1,6 @@
 package com.ray.command;
 
-import MethodInvocation.Remote.NoCommand;
+import com.ray.command.remote.NoCommand;
 
 /**
  * 遥控控制器对象
@@ -40,6 +40,7 @@ public class RemoteControl {
         offCommands[solt].execute();
     }
 
+    @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("\n----- Remote Control -----\n");

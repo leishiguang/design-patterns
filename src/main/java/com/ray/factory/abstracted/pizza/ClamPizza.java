@@ -23,7 +23,7 @@ public class ClamPizza extends BasePizza {
         dough = ingredientFactory.createDough();
         sauce = ingredientFactory.createSauce();
         cheese = ingredientFactory.createCheese();
-        viggies = ingredientFactory.createVeggies();
+        veggies = ingredientFactory.createVeggies();
         pepperoni = ingredientFactory.createPepperoni();
         clam = ingredientFactory.createClam();
         toppings = ingredientFactory.createToppings();

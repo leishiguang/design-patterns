@@ -1,7 +1,8 @@
 package com.ray.command;
 
-import MethodInvocation.Remote.LightOnCommand;
-import MethodInvocation.Furniture.Light;
+
+import com.ray.command.furniture.Light;
+import com.ray.command.remote.LightOnCommand;
 
 /**
  * 简单测试

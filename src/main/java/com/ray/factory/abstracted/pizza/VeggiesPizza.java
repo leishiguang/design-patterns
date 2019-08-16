@@ -3,16 +3,16 @@ package com.ray.factory.abstracted.pizza;
 import com.ray.factory.abstracted.ingredientfactory.PizzaIngredientFactory;
 
 /**
- * VegglePizza
+ * VeggiesPizza
  *
  * @author leishiguang
  * date  2018/8/9 19:50
  * @version v1.0
  */
-public class VegglePizza extends BasePizza {
+public class VeggiesPizza extends BasePizza {
     private PizzaIngredientFactory ingredientFactory;
 
-    public VegglePizza(PizzaIngredientFactory ingredientFactory) {
+    public VeggiesPizza(PizzaIngredientFactory ingredientFactory) {
         this.ingredientFactory = ingredientFactory;
     }
 

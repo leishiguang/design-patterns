@@ -1,10 +1,11 @@
 package com.ray.command;
 
-import MethodInvocation.Remote.*;
-import MethodInvocation.Furniture.CeilingFan;
-import MethodInvocation.Furniture.GarageDoor;
-import MethodInvocation.Furniture.Light;
-import MethodInvocation.Furniture.Stereo;
+
+import com.ray.command.furniture.CeilingFan;
+import com.ray.command.furniture.GarageDoor;
+import com.ray.command.furniture.Light;
+import com.ray.command.furniture.Stereo;
+import com.ray.command.remote.*;
 
 /**
  * 遥控控制器的测试方法

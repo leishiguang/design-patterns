@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * date  2018/8/8 20:58
  * @version v1.0
  */
-public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+public class NyPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
     public Dough createDough() {
         return new NewYorkDough();
