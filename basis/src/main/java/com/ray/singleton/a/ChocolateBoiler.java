@@ -1,4 +1,4 @@
-package com.ray.singleton;
+package com.ray.singleton.a;
 
 /**
  * 单件模式：巧克力工厂
@@ -17,7 +17,9 @@ class ChocolateBoiler {
         boiled = false;
     }
 
-    /* 实例化单例ChocolateBoiler */
+    /**
+     * 实例化单例ChocolateBoiler
+     */
     static ChocolateBoiler getInstance() {
         if (uniqueInstance == null) {
             // 防止多线程操作时，生成不同的 object

@@ -1,4 +1,4 @@
-package com.ray.singleton;
+package com.ray.singleton.a;
 
 /**
  * 单件模式

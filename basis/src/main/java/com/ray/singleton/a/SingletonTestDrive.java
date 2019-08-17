@@ -1,4 +1,4 @@
-package com.ray.singleton;
+package com.ray.singleton.a;
 
 /**
  * 单件模式测试
@@ -8,44 +8,44 @@ package com.ray.singleton;
  * @version v1.0
  */
 public class SingletonTestDrive {
-    public static void main(String args[]) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("\n========= RunnableDemo =========");
-        RunnableDemo R1 = new RunnableDemo("Runnable-1");
-        R1.start();
-        RunnableDemo R2 = new RunnableDemo("Runnable-2");
-        R2.start();
+        RunnableDemo r1 = new RunnableDemo("Runnable-1");
+        r1.start();
+        RunnableDemo r2 = new RunnableDemo("Runnable-2");
+        r2.start();
         //等待线程执行完...
         Thread.sleep(500);
-        R1.getThread().join();
-        R2.getThread().join();
+        r1.getThread().join();
+        r2.getThread().join();
         System.out.println("========= RunnableDemo END =========\n");
 
         System.out.println("\n========= ThreadDemo =========");
-        ThreadDemo T1 = new ThreadDemo("Thread-1");
-        T1.start();
-        ThreadDemo T2 = new ThreadDemo("Thread-2");
-        T2.start();
+        ThreadDemo t1 = new ThreadDemo("Thread-1");
+        t1.start();
+        ThreadDemo t2 = new ThreadDemo("Thread-2");
+        t2.start();
         //等待线程执行完
         Thread.sleep(500);
-        T1.getThread().join();
-        T2.getThread().join();
+        t1.getThread().join();
+        t2.getThread().join();
         System.out.println("========= ThreadDemo END =========\n");
 
         System.out.println("\n========= ChocolateDemo =========");
-        ChocolateDemo C1 = new ChocolateDemo("Boiler-1");
-        C1.start();
-        ChocolateDemo C2 = new ChocolateDemo("Boiler-2");
-        C2.start();
+        ChocolateDemo c1 = new ChocolateDemo("Boiler-1");
+        c1.start();
+        ChocolateDemo c2 = new ChocolateDemo("Boiler-2");
+        c2.start();
         //等待线程执行完
         //Thread.sleep(2000);
-        C1.getThread().join();
-        C2.getThread().join();
+        c1.getThread().join();
+        c2.getThread().join();
         System.out.println("========= ChocolateDemo END =========\n");
 
-        Singleton S1 = Singleton.getInstance();
-        Singleton S2 = Singleton.getInstance();
-        System.out.println(S1.hashCode());
-        System.out.println(S2.hashCode());
+        Singleton s1 = Singleton.getInstance();
+        Singleton s2 = Singleton.getInstance();
+        System.out.println(s1.hashCode());
+        System.out.println(s2.hashCode());
     }
 }
 
@@ -58,6 +58,7 @@ class RunnableDemo implements Runnable {
         System.out.println("Creating " + threadName);
     }
 
+    @Override
     public void run() {
         System.out.println("Running " + threadName);
         try {
@@ -94,6 +95,7 @@ class ThreadDemo extends Thread {
         System.out.println("Creating " + threadName);
     }
 
+    @Override
     public void run() {
         System.out.println("Running " + threadName);
         try {
@@ -108,6 +110,7 @@ class ThreadDemo extends Thread {
         System.out.println("Thread " + threadName + " exiting.");
     }
 
+    @Override
     public void start() {
         System.out.println("Starting " + threadName);
         if (t == null) {
