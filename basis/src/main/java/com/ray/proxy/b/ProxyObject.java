@@ -13,9 +13,6 @@ import java.lang.reflect.Method;
 public class ProxyObject implements InvocationHandler {
     private Object proxied = null;
 
-    public ProxyObject() {
-
-    }
 
     public ProxyObject(Object proxied) {
         this.proxied = proxied;
@@ -26,6 +23,4 @@ public class ProxyObject implements InvocationHandler {
         System.out.println("hello");
         return arg1.invoke(proxied, arg2);
     }
-
-    ;
 }

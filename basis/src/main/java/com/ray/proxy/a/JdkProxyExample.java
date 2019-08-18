@@ -1,11 +1,11 @@
-package com.ray.proxy.zero;
+package com.ray.proxy.a;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * TODO(用一句话描述该文件做什么)
+ *
  *
  * @author leishiguang
  * date  2018/9/14 20:05
