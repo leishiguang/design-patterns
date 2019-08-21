@@ -3,7 +3,7 @@
 - basis 简单的实践，侧重理论
 - practice 一些更饱满的实践，侧重应用
 
-**factory 工厂模式**
+**pattern.creational.factory 工厂模式**
 
 - simplify 简单工厂，以 pizza 为例
 - abstracted 抽象工厂，拓展了 pizza simplify 简单工厂
@@ -23,7 +23,7 @@
 - 注册式单例模式，枚举式单例模式，容器式单例模式
 
 
-proxy 代理模式
+pattern.structural.proxy 代理模式
 
 - a JDK 内置的代理
 - b 与 a 类似的案例
