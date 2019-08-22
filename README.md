@@ -1,7 +1,15 @@
 ## 在这里探索设计模式
 
-- basis 简单的实践，侧重理论
-- practice 一些更饱满的实践，侧重应用
+包结构目录：
+
+- basis 简单的实践，侧重基础理论，每种模式均包含多个详细案例；
+- practice 联系生产环境联系的实践，侧重应用，每个实践融合了多种设计模式；
+
+使用方式：
+
+- 执行每个子包中的 main 方法；
+
+### 小结
 
 **pattern.creational.factory 工厂模式**
 
@@ -22,8 +30,7 @@
 - 一般单例模式，要特别注意反射、序列化对单例的破坏
 - 注册式单例模式，枚举式单例模式，容器式单例模式
 
-
-pattern.structural.proxy 代理模式
+**pattern.structural.proxy 代理模式**
 
 - a JDK 内置的代理
 - b 与 a 类似的案例
@@ -35,7 +42,6 @@ JDK与CGLib对比
 - JDK 动态代理实现了被代理对象的接口，CGLib 代理继承了被代理对象。
 - JDK 动态代理和 CGLib 代理都在运行期生成字节码，JDK 动态代理直接写 Class 字节码，CGLib 代理使用 ASM 框架写 Class 字节码，CGLib 实现更复杂，生成代理类比 JDK 动态代理效率低。
 - JDK 动态代理调用代理方法是通过反射机制调用的，CGLib 代理是通过 FastClass 机制直接调用的，CGLib 代理的执行效率更高。
-
 
 **Strategy Pattern 策略模式**
 
@@ -61,8 +67,6 @@ JDK与CGLib对比
 - 代码中会产生非常多的策略类，增加了代码的维护难度；
 
 DispatcherServlet 结合了策略模式、工厂模式、单例模式...
-
-
 
 **模板模式**
 
