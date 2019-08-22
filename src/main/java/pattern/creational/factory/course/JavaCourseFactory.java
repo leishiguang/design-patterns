@@ -1,4 +1,4 @@
-package pattern.creational.factory.simplify2;
+package pattern.creational.factory.course;
 
 /**
  * 方法2：专门的工厂类

@@ -1,4 +1,4 @@
-package pattern.creational.factory.simplify2;
+package pattern.creational.factory.course;
 
 /**
  * @author leishiguang
