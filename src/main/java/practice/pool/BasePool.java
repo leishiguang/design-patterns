@@ -1,4 +1,4 @@
-package pool;
+package practice.pool;
 
 import java.io.IOException;
 import java.io.InputStream;

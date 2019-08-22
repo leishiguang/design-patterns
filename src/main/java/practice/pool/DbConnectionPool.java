@@ -1,4 +1,4 @@
-package pool;
+package practice.pool;
 
 import java.sql.Connection;
 import java.util.Vector;

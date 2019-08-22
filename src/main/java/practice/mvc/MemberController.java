@@ -1,4 +1,4 @@
-package mvc;
+package practice.mvc;
 
 /**
  * 测试用Controller对象
