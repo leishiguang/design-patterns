@@ -1,9 +1,4 @@
-package pattern.structural.adapter;
-
-import pattern.structural.adapter.a.Duck;
-import pattern.structural.adapter.a.MallardDuck;
-import pattern.structural.adapter.a.TurkeyAdapter;
-import pattern.structural.adapter.a.WildTurkey;
+package pattern.structural.adapter.a;
 
 /**
  * @author leishiguang
