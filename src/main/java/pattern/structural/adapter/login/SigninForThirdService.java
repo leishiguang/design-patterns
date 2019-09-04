@@ -13,6 +13,7 @@ public class SigninForThirdService extends SignService {
         //2、密码默认为 QQ_EMPTY
         //3、注册（在原有系统里面创建一个用户）
         //4、调用原来的登陆方法
+        System.out.println("login for qq");
         return loginForRegist(openId, null);
     }
 
