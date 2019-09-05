@@ -9,7 +9,7 @@
 
 - 执行每个子包中的 main 方法；
 
-### 小结
+### 各设计模式小结
 
 **pattern.creational.factory 工厂模式**
 
