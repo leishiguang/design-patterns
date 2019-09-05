@@ -1,7 +1,6 @@
 package pattern.structural.decorator.school;
 
 /**
- * TODO(用一句话描述该文件做什么)
  *
  * @author leishiguang
  * date  2018/10/30 20:58
