@@ -1,6 +1,6 @@
 ## 在这里探索设计模式
 
-基础设计模式 & 主流框架简化版的实现，如：Spring、Netty、Dubbo
+基础设计模式 & 主流框架简化版的实现，如：Spring
 
 ### 包结构
 
@@ -9,7 +9,7 @@
 - [spring-framework-simplified](/spring-framework-simplified): 简化版 spring-framework，包含 IoC、DI、AOP、MVC 
 
 后续继续增加：
-- [netty-simplified](/netty-simplified): 简化版 netty，完善中...
+- netty-simplified
 - dubbo-simplified
 - tomcat-simplified
 
